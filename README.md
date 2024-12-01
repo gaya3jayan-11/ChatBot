@@ -1,1 +1,1 @@
-ChatBot for muy college
+ChatBot for my college
