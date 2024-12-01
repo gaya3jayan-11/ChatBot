@@ -1,0 +1,133 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses do you offer?",
+        "What are the courses offered?",
+        "What programmes does the college offer?", 
+        "Can you list the available programs?", 
+        "Which programs are available?"
+      ],
+      "responses": [
+        "We offer Computer Science and Engineering, Information Science and Engineering, Electronics and Communication Engineering, Mechanical Engineering, and Master of Computer Applications. Please <a href='https://www.rvitm.edu.in/academics/'>click here</a> for more information.",
+        "We offer BE and MCA programs. Visit <a href='https://www.rvitm.edu.in/academics/'>Courses</a> for the complete list.", 
+        "Our college offers programs in BE and MCA. <a href='https://www.rvitm.edu.in/academics/'>Click here</a> for detailed information.", 
+        "Please visit <a href='https://www.rvitm.edu.in/academics/'>Courses</a> for the full list of available programs."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How can I apply for admission?",
+        "Where can i find the admission form?"
+      ],
+      "responses": [
+        "You can apply for admission online through our admissions portal. Visit <a href='https://www.rvitm.edu.in/admission/'>Admission</a> for more details.",
+        "The admission form is available on our admissions portal. <a href='https://www.rvitm.edu.in/admission/'>Click here</a> to access it."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the fee structure?", 
+        "How much are the tuition fees?", 
+        "Can you provide details about the fees?"
+      ],
+      "responses": [
+        "The fee structure varies by program. You can <a href='https://www.rvitm.edu.in/contact/'>contact us</a> to obtain detailed information on the fee structure page link.", 
+        "Tuition fees depend on the course you choose. <a href='https://www.rvitm.edu.in/contact/'>Contact us</a> for more information.", 
+        "Please <a href='https://www.rvitm.edu.in/contact/'>contact us</a> to gain the complete fee details."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities does the college offer?",
+        "What amenities are available on campus?",
+        "Can you tell me about the campus facilities?",
+        "Does the college have any special facilities?",
+        "What resources are available for students?"
+      ],
+      "responses": [
+        "Our college offers a wide range of facilities including modern classrooms, laboratories, recreational spaces, and support services to enhance student life. <a href='https://www.rvitm.edu.in/campus-life-facilities/#facilities'>Click here</a> for more detailed overview."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "What are the placement opportunities?", 
+        "What companies visit for placements?"
+      ],
+      "responses": [
+        "Our placement cell collaborates with top companies like [list some companies]. For a full list, visit <a href='https://www.rvitm.edu.in/placements/'>Placment</a>.", 
+        "We offer excellent placement opportunities with leading companies. More details are available on our <a href='https://www.rvitm.edu.in/placements/'>placement page</a>."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact the college?", 
+        "What is your contact number?"
+      ],
+      "responses": [
+        "You can contact us at +91 8951758140 or email us at info.rvitm@rvei.edu.in. For more contact options, visit <a href='https://www.rvitm.edu.in/contact/'>Contact Us</a>.",  
+        "For any inquiries, please call +91 8951758140 or email info.rvitm@rvei.edu.in."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "Do you have hostel facilities?", 
+        "Are hostels available?", 
+        "What are the hostel charges?"
+      ],
+      "responses": [
+        "We provide hostel facilities for both boys and girls. <a href='https://www.rvitm.edu.in/contact/'>Contact us</a> for more details.", 
+        "Hostels are available with various amenities like Wi-Fi, mess services, and recreational areas. Learn more by <a href='https://www.rvitm.edu.in/contact/'>contacting us</a>."
+      ]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "What clubs are available on campus?",
+        "Are there any extracurricular clubs?",
+        "Can you tell me about the clubs and at the college?"
+      ],
+      "responses": [
+        "Our college offers a variety of clubs, including cultural, technical, and recreational clubs. <a href='https://www.rvitm.edu.in/clubs/'>Click here</a> for more details."
+      ]
+    }
+  ]
+}
